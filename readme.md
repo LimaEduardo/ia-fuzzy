@@ -31,5 +31,5 @@ $ python pressaoT.py
 ```
 
 ## Authors
-* [**Eduardo Lima**](https://github.com/LimaEduardo)
 * [**Arthur Cruz**](https://github.com/thuzax)
+* [**Eduardo Lima**](https://github.com/LimaEduardo)
