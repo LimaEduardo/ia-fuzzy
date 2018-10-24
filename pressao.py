@@ -13,11 +13,11 @@ pressao = ctrl.Consequent(np.arange(0, 101, 1), 'pressao')
 distancia.automf(5)
 velocidade.automf(5)
 
-pressao['muito_baixo'] = fuzz.trapmf(pressao.universe, [0, 0, 10, 15])
-pressao['baixo'] = fuzz.trapmf(pressao.universe, [10, 15, 20, 25])
-pressao['medio'] = fuzz.trapmf(pressao.universe, [20, 35, 60, 75])
-pressao['alto'] = fuzz.trapmf(pressao.universe, [70, 75, 80, 85])
-pressao['muito_alto'] = fuzz.trapmf(pressao.universe, [80, 90, 100, 100])
+pressao['muito_baixo'] = fuzz.trapmf(pressao.universe, [0, 0, 5, 10])
+pressao['baixo'] = fuzz.trapmf(pressao.universe, [7.5, 15, 25, 32.5])
+pressao['medio'] = fuzz.trapmf(pressao.universe, [28, 35, 68, 72])
+pressao['alto'] = fuzz.trapmf(pressao.universe, [68, 75, 75, 77.5])
+pressao['muito_alto'] = fuzz.trapmf(pressao.universe, [77.5, 80, 100, 100])
 
 #Disatancias: 'muito perto' -> 'muito longe'
 # Available options: 'poor'; 'mediocre'; 'average'; 'decent', or 'good'.
